@@ -18,7 +18,7 @@
   <Card>
     <p slot="title">{currentQuestion.question}</p>
     <div class="flex flex-col gap-4">
-      {#each shuffle(currentQuestion.answers) as { answer, correct }}
+      {#each currentQuestion.answers as { answer, correct }}
         <Button green={correct && isAnswered} on:click={() => (isAnswered = true)}>{answer}</Button>
       {/each}
 
