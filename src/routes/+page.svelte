@@ -12,13 +12,15 @@
   let currentQuestionIndex = 0;
   $: currentQuestion = shuffledQuestions[currentQuestionIndex];
   let isAnswered = false;
+
+  $: shuffledAnswers = shuffle(currentQuestion.answers);
 </script>
 
 <Container>
   <Card>
     <p slot="title">{currentQuestion.question}</p>
     <div class="flex flex-col gap-4">
-      {#each currentQuestion.answers as { answer, correct }}
+      {#each shuffledAnswers as { answer, correct }}
         <Button green={correct && isAnswered} on:click={() => (isAnswered = true)}>{answer}</Button>
       {/each}
 
