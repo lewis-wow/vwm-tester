@@ -852,10 +852,10 @@
       { "answer": "Něco s indexováním", "correct": false }
     ]
   },
-  { "question": "Dangling nodes je:", "answers": [] },
   {
-    "question": "Stránka bez inlinků",
+    "question": "Dangling nodes je:",
     "answers": [
+      { "answer": "Stránka bez inlinků", "correct": false }
       { "answer": "Stránka s 1 inlinkem", "correct": false },
       { "answer": "Stránka bez outlinků ", "correct": true },
       { "answer": "Stránka s 1 outlinkem", "correct": false }
