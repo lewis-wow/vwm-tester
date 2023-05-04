@@ -1,0 +1,1086 @@
+[
+  {
+    "question": "Co poskytují Stock servery:",
+    "answers": [
+      { "answer": "časové řady vývoje akcií", "correct": false },
+      { "answer": "zpoplatněná anotovaná multimédia ", "correct": true },
+      { "answer": "sdílení videí ze sociálních sítí", "correct": false },
+      { "answer": "volně stáhnutelná alba obrázků", "correct": false }
+    ]
+  },
+  {
+    "question": "V kontextu vyhledávání v multimediálních databázích termínem Benchmarking označujeme:",
+    "answers": [
+      {
+        "answer": "platformu vyhodnocování kvality vyhledávacího systému vzhledem k nějaké anotované „golden-standard“ kolekci ",
+        "correct": true
+      },
+      { "answer": "uživatelská anketa zaměřená na hodnocení kvality webového vyhledávače", "correct": false },
+      { "answer": "měření P-R křivky na nějakém systému", "correct": false },
+      { "answer": "výkonnostní (rychlostní) srovnání dvou vyhledávačů", "correct": false }
+    ]
+  },
+  {
+    "question": "Přesnost (precision) a úplnost (recall) vyhledávání se reálně chovají tak, že:",
+    "answers": [
+      { "answer": "přesnost lze spočítat z úplnosti", "correct": false },
+      { "answer": "když roste přesnost, roste i úplnost", "correct": false },
+      { "answer": "chování přesností a úplnosti nelze odhadovat", "correct": false },
+      { "answer": "když roste přesnost, klesá úplnost, a naopak ", "correct": true }
+    ]
+  },
+  {
+    "question": "Podobnostní vyhledávání (vyhledávání podle podobnosti; similarity search) je:",
+    "answers": [
+      { "answer": "technika klasifikace objektů do tříd pomocí podobnostní matice", "correct": false },
+      {
+        "answer": "vyhledávací model založený na ad-hoc shlukování podobných objektů a jejich následném filtrování",
+        "correct": false
+      },
+      { "answer": "geometrická interpretace vyhledávacích problémů ve vektorovém prostoru", "correct": false },
+      {
+        "answer": "vyhledávací model založený na univerzu deskriptorů multimediálních objektů a funkcí ohodnocující podobnost libovolných dvou deskriptorů z univerza ",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "Funkce podobnosti je:",
+    "answers": [
+      {
+        "answer": "algoritmus, který nalezne pro dotazový deskriptor podobné deskriptory z databáze",
+        "correct": false
+      },
+      {
+        "answer": "funkce ohodnocující danou databázi stupněm podobnosti všech uložených deskriptorů",
+        "correct": false
+      },
+      { "answer": "libovolná funkce vracející pro dva deskriptory z univerze podobnostní skóre ", "correct": true },
+      { "answer": "metrická vzdálenost sloužící jako podobnost", "correct": false }
+    ]
+  },
+  {
+    "question": "Nemetrické vzdálenosti, narozdíl od metrických:",
+    "answers": [
+      { "answer": "dovolují modelovat robustnější podobnosti ", "correct": true },
+      { "answer": "fungují dobře pouze ve vysokorozměrných prostorech", "correct": false },
+      { "answer": "jsou indexovatelnější", "correct": false },
+      { "answer": "vyžadují od doménových expertů větší matematické znalosti", "correct": false }
+    ]
+  },
+  {
+    "question": "Dynamic time warping distance (DTW) se používá pro měření podobnosti na:",
+    "answers": [
+      { "answer": "vektorech", "correct": false },
+      { "answer": "řetězcích", "correct": false },
+      { "answer": "časových řadách ", "correct": true },
+      { "answer": "množinách", "correct": false }
+    ]
+  },
+  {
+    "question": "Dynamit time warping distance (DTW) je výhodná, protože:",
+    "answers": [
+      { "answer": "není metrická, narozdíl od Lp vzdáleností", "correct": false },
+      { "answer": "představuje robustní zarovnání díky lokálnímu natahování/zkracování (time warp) ", "correct": true },
+      { "answer": "umožňuje lokální zarovnání, tj. zarovnání pouze podposloupností (subsequence)", "correct": false },
+      { "answer": "je výpočet levnější než Lp vzdálenost", "correct": false }
+    ]
+  },
+  {
+    "question": "Earth mover's distance (EMD) je vhodná pro modelování podobnosti na histogramech, když:",
+    "answers": [
+      { "answer": "histogramy reprezentují obraz omezený na barevný prostor RGB", "correct": false },
+      {
+        "answer": "nestačí pouhá korelace dimenzí (sloupců), ale řeší se „nejmenší přesun 'masy' mezi histogramy“ ",
+        "correct": true
+      },
+      { "answer": "modelujeme biochemickou podobnost vzorků", "correct": false },
+      { "answer": "nevíme jaké korelace vyplnit do matice kvadratické formy (QFD)", "correct": false }
+    ]
+  },
+  {
+    "question": "SIFT je:",
+    "answers": [
+      { "answer": "detektor a deskriptor lokálních vlastností v obrázcích ", "correct": true },
+      { "answer": "metoda rozpoznávání obrázku založená na Fourierově transformaci (FT)", "correct": false },
+      { "answer": "technika segmentace obrazu na homogenní textury", "correct": false },
+      { "answer": "algoritmus pro extrakci globálních vlastností z obrázku", "correct": false }
+    ]
+  },
+  {
+    "question": "Matice pro výpočet QFD (quadratic form distance) pro histogramy barev obsahuje:",
+    "answers": [
+      { "answer": "vzdálenosti průměru všech barev vyskytujících se v obrázcích", "correct": false },
+      { "answer": "korelace mezi reprezentanty barev vyskytujícími se v obrázcích ", "correct": true },
+      { "answer": "vzdálenosti k několika pevně daným centroidům barev", "correct": false },
+      { "answer": "korelace mezi všemi barvami vyskytujícími se v obrázcích", "correct": false }
+    ]
+  },
+  {
+    "question": "Termín „query-by-humming“ při vyhledávání např. hudební skladby znamená:",
+    "answers": [
+      { "answer": "že jako dotaz je použito audio zapískané/zazpívané uživatelem ", "correct": true },
+      { "answer": "totéž co „query-by-example“", "correct": false },
+      { "answer": "že dotazem je zkomprimovaný audio soubor", "correct": false },
+      { "answer": "že jako dotaz je použit audio soubor nějaké skladby", "correct": false }
+    ]
+  },
+  {
+    "question": "M-strom je:",
+    "answers": [
+      {
+        "answer": "inspirován R-stromem, využívá hiearchické hnízdění metrických regionů a není vyvážený",
+        "correct": false
+      },
+      {
+        "answer": "inspirován PM-stromem, využívá hiearchické hnízdění metrických regionů a je vyvážený",
+        "correct": false
+      },
+      {
+        "answer": "inspirován PM-stromem, využívá hiearchické hnízdění metrických regionů a není vyvážený",
+        "correct": false
+      },
+      {
+        "answer": "inspirován R-stromem, využívá hiearchické hnízdění metrických regionů a je vyvážený ",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "T-chyba (T-error) vyžaduje:",
+    "answers": [
+      { "answer": "proporce trojic v datové sadě splňujících trojúhelníkovou nerovnost", "correct": false },
+      { "answer": "proporce dvojic v datové sadě splňujících trojúhelníkovou nerovnost", "correct": false },
+      { "answer": "proporce trojic v datové sadě porušujících trojúhelníkovou nerovnost ", "correct": true },
+      { "answer": "proporce dvojic v datové sadě porušujících trojúhelníkovou nerovnost", "correct": false }
+    ]
+  },
+  {
+    "question": "Metrické přístupové metody (metric access methods) jsou:",
+    "answers": [
+      {
+        "answer": "datové struktury a algoritmy umožňující rychlé vyhledávání v metrickém modelu podobnostního vyhledávání ",
+        "correct": true
+      },
+      { "answer": "stromové indexy odvozené od B-stromu", "correct": false },
+      { "answer": "prostorové indexy využívající vektorové podobnosti", "correct": false },
+      { "answer": "algoritmy pro podobnostní hashování", "correct": false }
+    ]
+  },
+  {
+    "question": "Globální pivoti jsou:",
+    "answers": [
+      { "answer": "tvořeny za účelem vytváření indexu", "correct": false },
+      { "answer": "dynamické objekty (příslušné různým částem indexu)", "correct": false },
+      { "answer": "statické objekty (platné po celý život indexu) ", "correct": true },
+      { "answer": "dynamické objekty, ale v průbehu jednoho dotazu fixovány jako statické", "correct": false }
+    ]
+  },
+  {
+    "question": "Úplnost vyhledávání (retrieval recall) označuje:",
+    "answers": [
+      { "answer": "pravděpodobnost, že objekt ve výsledku dotazu je relevantní", "correct": false },
+      { "answer": "pravděpodobnost, že objekt relevantní k dotazu je v jeho výsledku ", "correct": true },
+      { "answer": "počet iterací při vyhledávání pomocí uživatelské zpětné vazby", "correct": false },
+      { "answer": "stupeň 1 na stupnici 1-5 uživatelské spokojenosti s výsledkem dotazu", "correct": false }
+    ]
+  },
+  {
+    "question": "Co je virtuální/implicitní graf v kontextu brouzdání (browsing) v multimédiích?",
+    "answers": [
+      { "answer": "nejkratší cesta v grafu, kde uzly jsou multimédia a hrany podobnosti mezi nimi", "correct": false },
+      { "answer": "série dotazů v multimediálním prostoru tvořící cestu virtuálním grafem ", "correct": true },
+      {
+        "answer": "graf vytížení uzlů sítě hostující multimediální obsah, tvořené peer-to-peer architekturou",
+        "correct": false
+      },
+      { "answer": "hiearchie multimediálních kategorií, modelovaná explicitně", "correct": false }
+    ]
+  },
+  {
+    "question": "Boolský model vyhledávání je založen na:",
+    "answers": [
+      { "answer": "uspořádání dokumentů podle podobnosti k dotazu", "correct": false },
+      { "answer": "binárních vektorech a Hammingově vzdálenosti", "correct": false },
+      { "answer": "bitových řetězcích a operacích AND, OR a XOR", "correct": false },
+      {
+        "answer": "reprezentaci obsahu dokumentů množinou termů a na dotazování boolovskými výrazy a termy ",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "Co je explicitní graf v kontextu brouzdání (browsing) v multimédiích?",
+    "answers": [
+      { "answer": "hiearchie multimediálních kategorií, modelovaná explicitně ", "correct": true },
+      { "answer": "graf tvořený uzly a hranami", "correct": false },
+      { "answer": "graf sociálních komunit sdílející podobný multimediální obsah", "correct": false },
+      { "answer": "série ad-hoc dotazů. tvořící řetěz", "correct": false }
+    ]
+  },
+  {
+    "question": "Výpočet Earth mover's distance (EMD) má časovou složitost:",
+    "answers": [
+      { "answer": "O(2^n) ", "correct": true },
+      { "answer": "O(n^2)", "correct": false },
+      { "answer": "O(n.log(n))", "correct": false }
+    ]
+  },
+  {
+    "question": "Vektorový model vyhledávání je založen na:",
+    "answers": [
+      { "answer": "binárních vektorech a Hammingově vzdálenosti", "correct": false },
+      { "answer": "teorii fuzzy množin", "correct": false },
+      { "answer": "vektorovém paralelismu jednotek GPU (v grafických kartách)", "correct": false },
+      {
+        "answer": "reprezentaci obsahu dokumentů a dotazů vektory, a vektorové míře sloužící jako podobnost ",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "Editační vzdálenost (edit distance) slouží k měření podobností:",
+    "answers": [
+      { "answer": "vektorů, kde měří nejmenší tzv. „vektorový edit“", "correct": false },
+      {
+        "answer": "řetězů, kde spočítá nejmenší počet operací nutných ke konverzi jednoho řetězce do druhého ",
+        "correct": true
+      },
+      {
+        "answer": "množin, kde spočítá nejmenší počet množinových operací nutných k transformaci jedné množiny do druhé",
+        "correct": false
+      },
+      { "answer": "téhož co DTW (je to pouze jiný název pro DTW)", "correct": false }
+    ]
+  },
+  {
+    "question": "Pro vektorový model dotazování neplatí, že:",
+    "answers": [
+      { "answer": "obsahuje logické spojky ", "correct": true },
+      { "answer": "obsahuje váhy jednotlivých termů dotazu", "correct": false },
+      { "answer": "uživatel může zadat váhy všech termů v dotazu shodně", "correct": false },
+      { "answer": "výsledek je založen na frekvenci výskytu termů v dokumentu a dotazu", "correct": false }
+    ]
+  },
+  {
+    "question": "Vážení podle tf-idf schématu:",
+    "answers": [
+      { "answer": "je populární technika konstrukce vah termů ve vektorovém modelu ", "correct": true },
+      { "answer": "je implementace Boolského modelu založená na prohledávání komprimovaného indexu", "correct": false },
+      { "answer": "je kompresní metoda obrazu, založená na tzv. vážení regionů", "correct": false },
+      { "answer": "technika konstrukce vah termů ve vektorovém modelu vhodná pouze pro malé dimenze", "correct": false }
+    ]
+  },
+  {
+    "question": "Noty u podobnostního skóre monofóní melodie (monophonie melody) jsou modelovány:",
+    "answers": [
+      { "answer": "svojí výškou", "correct": false },
+      { "answer": "v 2D prostoru pomocí výšky a pozice v čase", "correct": false },
+      { "answer": "v 2D prostoru pomocí výšky a pozice v čase a navíc používá váhy ", "correct": true },
+      { "answer": "pozicí v notovém zápisu", "correct": false }
+    ]
+  },
+  {
+    "question": "Podobnostní přístup pro symbolicky reprezentované polyfonní melodie je aplikovatelný na:",
+    "answers": [
+      { "answer": "pouze MIDI soubory ", "correct": true },
+      { "answer": "pouze WAV soubory", "correct": false },
+      { "answer": "libovolný ze zde uvedených audio souborů", "correct": false },
+      { "answer": "pouze MP3 soubory", "correct": false }
+    ]
+  },
+  {
+    "question": "Standard MPEG7 popisuje:",
+    "answers": [
+      { "answer": "definice deskriptorů a nástroje k jejich extrakci", "correct": false },
+      { "answer": "definice deskriptorů bez popisu algoritmů jejich extrakce ", "correct": true },
+      { "answer": "definice deskriptorů a definice podobností nad nimi", "correct": false },
+      { "answer": "definice deskriptorů a algoritmy pro jejich získání", "correct": false }
+    ]
+  },
+  {
+    "question": "TV-modifikátor (TV-modifier) je:",
+    "answers": [
+      { "answer": "striktně konkávní SP modifikátor, což zajišťuje vyšší hodnotu T-chyby (T-error)", "correct": false },
+      { "answer": "striktně konvexní SP modifikátor, což zajišťuje vyšší hodnotu T-chyby (T-error) ", "correct": true },
+      {
+        "answer": "striktně konkávní SP modifikátor, což zajišťuje nízkou hodnotu T-chyby (T-error)",
+        "correct": false
+      },
+      { "answer": "striktně konvexní SP modifikátor, což zajišťuje nízkou hodnotu T-chyby (T-error)", "correct": false }
+    ]
+  },
+  {
+    "question": "TG-modifikátor (TG-modifier) je:",
+    "answers": [
+      { "answer": "striktně konkávní SP modifikátor, což zajišťuje vyšší hodnotu T-chyby (T-error)", "correct": false },
+      { "answer": "striktně konvexní SP modifikátor, což zajišťuje vyšší hodnotu T-chyby (T-error)", "correct": false },
+      {
+        "answer": "striktně konkávní SP modifikátor, což zajišťuje nízkou hodnotu T-chyby (T-error) ",
+        "correct": true
+      },
+      { "answer": "striktně konvexní SP modifikátor, což zajišťuje nízkou hodnotu T-chyby (T-error)", "correct": false }
+    ]
+  },
+  {
+    "question": "Longest common subsequence (LCS) je výhodná, protože:",
+    "answers": [
+      { "answer": "je výpočet levnější než Lp vzdálenosti", "correct": false },
+      { "answer": "představuje robustní zarovnání díky lokálnímu natahování/zkracování (time warp)", "correct": false },
+      { "answer": "umožňuje lokální zarovnání, tj. zarovnání pouze podposloupností (subsequence) ", "correct": true },
+      { "answer": "je to opravdu podobnost, nikoliv vzdálenost", "correct": false }
+    ]
+  },
+  {
+    "question": "Termín Retrieval Efficiancy znamená:",
+    "answers": [
+      { "answer": "efektivita vyhledávače ve smyslu rychlosti vyhledávání ", "correct": true },
+      { "answer": "efektivita vyhledávače ve smyslu úrovně prezentace výsledků", "correct": false },
+      { "answer": "efektivita vyhledávače ve smyslu kvality ovládání GUI", "correct": false },
+      { "answer": "efektivita vyhledávače ve smyslu kvality výsledku vyhledávání", "correct": false }
+    ]
+  },
+  {
+    "question": "Vysoká vnitřní dimenze (intrinsic dimensionality) značí že:",
+    "answers": [
+      { "answer": "data netvoří shluky (clustery) a tedy jsou špatně strukturovaná ", "correct": true },
+      { "answer": "data tvoří shluky a tedy jsou dobře indexovatelná", "correct": false },
+      { "answer": "data netvoří shluky a tedy jsou dobře indexovatelná", "correct": false },
+      { "answer": "datová sada je dobře strukturovaná, protože vnitřní dimenze odpovídá vnější", "correct": false }
+    ]
+  },
+  {
+    "question": "Lower-bounding je:",
+    "answers": [
+      { "answer": "odvození výpočetně levné metriky z výpočetně drahé nemetriky", "correct": false },
+      { "answer": "mapování z metrického do vektorového prostoru", "correct": false },
+      { "answer": "obecný mechanismus pro efektivní podobnostní vyhledávání ", "correct": true },
+      { "answer": "metoda redukce dimenze vektorového prostoru", "correct": false }
+    ]
+  },
+  {
+    "question": "Podobnost zachovávající modifikátor (similarity preserving modifier) je:",
+    "answers": [
+      { "answer": "rostoucí funkce f pro kterou f(0) = 0 ", "correct": true },
+      { "answer": "klesající funkce f pro kterou f(0) < 0", "correct": false },
+      { "answer": "rostoucí funkce f pro kterou f(0) < 0", "correct": false },
+      { "answer": "klesající funkce f pro kterou f(0) = 0", "correct": false }
+    ]
+  },
+  {
+    "question": "Dotaz (query) je:",
+    "answers": [
+      { "answer": "Navigace ve struktuře databáze (webu)", "correct": false },
+      { "answer": "Explicitní formulace jednorázového záměru vyhledávání ", "correct": true },
+      { "answer": "SQL příkaz obsahující predikát LIKE", "correct": false },
+      { "answer": "Postupná filtrace relevantních dokumentů a proudu dokumentů", "correct": false }
+    ]
+  },
+  {
+    "question": "Webová stránka je:",
+    "answers": [
+      { "answer": "Vizualizace obsahu staženého z webu", "correct": false },
+      { "answer": "Dokument v jazyce HTML ", "correct": true },
+      { "answer": "Dokument v jazyce XML", "correct": false },
+      { "answer": "Libovolný datový proud předcházený protokolem HTTP", "correct": false }
+    ]
+  },
+  {
+    "question": "Termín Retrieval efficiency znamená:",
+    "answers": [
+      { "answer": "Míru úspornosti reprezentace dotazu", "correct": false },
+      { "answer": "Míru výkonu, měřící rychlost odezvy dotazu ", "correct": true },
+      { "answer": "Míru kvality, měřící uživatelskou spokojenost s výsledkem dotazu", "correct": false },
+      { "answer": "Míru rychlosti, s jakou uživatel formuluje dotaz", "correct": false }
+    ]
+  },
+  {
+    "question": "Co je metavyhledávač:",
+    "answers": [
+      { "answer": "Vyhledávač, který pouze agreguje výsledky z jiných vyhledávačů ", "correct": true },
+      { "answer": "Vyhledávač integrovaný pouze do e-commerce aplikací", "correct": false },
+      {
+        "answer": "Multimediální vyhledávač, který indexuje pouze klíčová slova, ne samotný multimediální obsah",
+        "correct": false
+      },
+      { "answer": "Vyhledávač, který indexuje pouze nadpisy webových stránek", "correct": false }
+    ]
+  },
+  {
+    "question": "Čím se odlišuje Web 2.0 od původního konceptu webu:",
+    "answers": [
+      { "answer": "Primární podporou HTML 5", "correct": false },
+      { "answer": "Orientací na uživatelem generovaný obsah a sociální sítě ", "correct": true },
+      { "answer": "Technickou podporou sémantického webu", "correct": false },
+      { "answer": "Nativní podporou multimediálního obsahu", "correct": false }
+    ]
+  },
+  {
+    "question": "Nevýhody Booleovského modelu jsou:",
+    "answers": [
+      { "answer": "Složitost modelu a neefektivní implementace", "correct": false },
+      { "answer": "Neuspořádanost výsledku dotazu ", "correct": true },
+      { "answer": "Nemožnost použití invertovaného indexu", "correct": false },
+      { "answer": "Reprezentace dokumentu indexem", "correct": false }
+    ]
+  },
+  {
+    "question": "Výhody Booleovského modelu jsou:",
+    "answers": [
+      { "answer": "Schopnost předem omezit velikost výsledku dotazu", "correct": false },
+      { "answer": "Uspořádání výsledku dotazu", "correct": false },
+      { "answer": "Jednoduchost a efektivní implementace ", "correct": true },
+      { "answer": "Reprezentace dotazu dokumentem", "correct": false }
+    ]
+  },
+  {
+    "question": "Výhody Boolského modelu jsou:",
+    "answers": [
+      { "answer": "jednoduchost, rozšiřitelnost a efektivní implementace ", "correct": true },
+      { "answer": "velmi efektivní model, přesnost a úplnost se blíží 100", "correct": false },
+      { "answer": "uspořádání výsledku, dotaz příkladem, snadný relevance feedback", "correct": false },
+      { "answer": "lze snadno kontrolovat velikost výsledku dotazu", "correct": false }
+    ]
+  },
+  {
+    "question": "Term je:",
+    "answers": [
+      { "answer": "Ukončovací znak dokumentu (CR LF)", "correct": false },
+      { "answer": "Oddělovač tokenů", "correct": false },
+      { "answer": "Stop slovo", "correct": false },
+      { "answer": "Slovo (případně fráze), vyskytující se v dokumentu ", "correct": true }
+    ]
+  },
+  {
+    "question": "Mezi nevýhody LSI nepatří:",
+    "answers": [
+      { "answer": "drahé zpracování matice", "correct": false },
+      { "answer": "hustá matice", "correct": false },
+      { "answer": "těžká vyjádřitelnost konceptů", "correct": false },
+      { "answer": "redukce dimenze ", "correct": true }
+    ]
+  },
+  {
+    "question": "Zrychlení v LSI modelu lze zajistit:",
+    "answers": [
+      { "answer": "invertovaným indexem a využitím pouze několika důležitých konceptů", "correct": false },
+      { "answer": "využitím pouze důležitých konceptů ", "correct": true },
+      { "answer": "invertovaným indexem", "correct": false },
+      { "answer": "invertovaným idnexem nebo využitím pouze několika důležitých konceptů", "correct": false }
+    ]
+  },
+  {
+    "question": "Vektorový model je založen na:",
+    "answers": [
+      { "answer": "fuzzy logice a teorii fuzzy monzin", "correct": false },
+      { "answer": "Boolské logice a teorii kategorií", "correct": false },
+      { "answer": "Boolské algebře a teorii množin", "correct": false },
+      { "answer": "geometrizaci vyhledávacího problému ", "correct": true }
+    ]
+  },
+  {
+    "question": "Soubor sitemap:",
+    "answers": [
+      { "answer": "je ve formátu XML", "correct": false },
+      { "answer": "definuje strukturu dokumentu a může být v XML formátu ", "correct": true },
+      { "answer": "definuje strukturu dokumentu a je v XML formátu", "correct": false },
+      { "answer": "definuje strukturu dokumentu a může být v libovolném formátu", "correct": false }
+    ]
+  },
+  {
+    "question": "Struktura webu a instrukce pro procházení lze crawlerům popsat pomocí souborů:",
+    "answers": [
+      { "answer": "sitemap robots.txt a htaccess ", "correct": true },
+      { "answer": "sitemap a robots.txt", "correct": false },
+      { "answer": "robots.txt a htaccess", "correct": false },
+      { "answer": "sitemap a htaccess", "correct": false }
+    ]
+  },
+  {
+    "question": "Soubor robots.txt:",
+    "answers": [
+      { "answer": "definuje stránky, které mají a které nemají být indexovány ", "correct": true },
+      { "answer": "definuje celou strukturu web site", "correct": false },
+      { "answer": "definuje stránky, které mají být při indexování zvýhodněny", "correct": false },
+      { "answer": "je vázaný na web server Apache", "correct": false }
+    ]
+  },
+  {
+    "question": "Výpočet PageRank vektoru pomocí přímích metod (direct methods):",
+    "answers": [
+      {
+        "answer": "je výpočetně velmi náročný, protože potřebuje explicitně ukládat matice mezivýsledků ",
+        "correct": true
+      },
+      { "answer": "je výpočetně velmi náročný, protože nelze paralelizovat", "correct": false },
+      {
+        "answer": "je výpožetně nejméně náročný, protože nepořebuje explicitně ukládat matice mezivýsledků",
+        "correct": false
+      },
+      { "answer": "je výpočetně nějméně náročný, protože lze velmi dobře paralelizovat", "correct": false }
+    ]
+  },
+  {
+    "question": "Paramentr alfa v Google matici vyjadřuje:",
+    "answers": [
+      {
+        "answer": "Pravděpodobnost skoku na stránku, na kterou vedou odkazy ze stávající stránky (= Damping factor) ",
+        "correct": true
+      },
+      {
+        "answer": "Pravděpodobnost ukončení prohledávání, když uživatel —- ?na stránku nemající žádné outlinky?",
+        "correct": false
+      },
+      { "answer": "Pravděpodobnost, že uživatel —- ?na stránku nemající žádné outlinky?", "correct": false },
+      { "answer": "Pravděpodobnost skoku na stránku, na kterou nevedou odkazy ze stávající stránky", "correct": false }
+    ]
+  },
+  {
+    "question": "Hub je:",
+    "answers": [
+      { "answer": "stránka s málo inlinky", "correct": false },
+      { "answer": "stránka s málo outlinky", "correct": false },
+      { "answer": "stránka s mnoha inlinky", "correct": false },
+      { "answer": "stránka s mnoha outlinky ", "correct": true }
+    ]
+  },
+  {
+    "question": "V kontextu sémantického webu slouží XML:",
+    "answers": [
+      { "answer": "jako prezentační vrstva", "correct": false },
+      { "answer": "jako protokol komunikace mezi nesémantickým vyhledáváním a webovými službami", "correct": false },
+      { "answer": "jako univerzálně strojově čitelný jazyk pro popis —– a metadat ", "correct": true },
+      { "answer": "jako prostředek migrace webových zrodjů z jednoho schématu do druhého", "correct": false }
+    ]
+  },
+  {
+    "question": "SPARQL je:",
+    "answers": [
+      { "answer": "dotazovací jazyk nad XML", "correct": false },
+      { "answer": "dotazovací jazyk nad RDF ", "correct": true },
+      { "answer": "dotazovací jazyk SQL rozšířený o klauzule vyhledávání na sémantickém webu", "correct": false },
+      { "answer": "abstraktní model pro konceptuální modelování —–", "correct": false }
+    ]
+  },
+  {
+    "question": "Podobnostní operátor narozdíl od dotazu:",
+    "answers": [
+      { "answer": "je často parametrizovaný a vrací velikou odpověď", "correct": false },
+      { "answer": "není často parametrizovaný a vrací velkou odpověď ", "correct": true },
+      { "answer": "je často parametrizovaný a vrací malou odpověď", "correct": false },
+      { "answer": "není často parametrizovaný a vrací malou odpověď", "correct": false }
+    ]
+  },
+  {
+    "question": "Který z následujících pojmů je nesmysl:",
+    "answers": [
+      { "answer": "Faginův operátor ", "correct": true },
+      { "answer": "skyline operátor", "correct": false },
+      { "answer": "top-k operátor", "correct": false },
+      { "answer": "podobnostní spojení", "correct": false }
+    ]
+  },
+  {
+    "question": "kNN dotaz (range query):",
+    "answers": [
+      {
+        "answer": "je vhodný pro dotazování nad objekty u kterých uživatel zná sémantiku extrahovaných vektorů a sémantiku podobnostní funkce",
+        "correct": false
+      },
+      {
+        "answer": "je vhodný pro dotazování nad objekty u kterých uživatel nezná sémantiku extrahovaných vektorů",
+        "correct": false
+      },
+      {
+        "answer": "je vhodný pro dotazování nad objekty u kterých uživatel zná sémantiku extrahovaných vektorů",
+        "correct": false
+      },
+      {
+        "answer": "je vhodný pro dotazování nad objekty u kterách uživatel nezná sémantiku extrahovaných vektorů a sémantiku podobnostní funkce ",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "AESA je:",
+    "answers": [
+      { "answer": "binární strom využívající dělení prostoru (zobecněnými) nadrovinami", "correct": false },
+      { "answer": "n-ární strom využívající dělení prostoru (zobecněnými) nadrovinami", "correct": false },
+      { "answer": "tabulka vzdáleností mezi všemi objekty databáze a vybranými pivoty", "correct": false },
+      { "answer": "tabulka vzdáleností mezi všemi dvojicemi objektů v databázi ", "correct": true }
+    ]
+  },
+  {
+    "question": "Mezi axiomy metriky (metric postulates) nepatří:",
+    "answers": [
+      { "answer": "symetrie (symmetry)", "correct": false },
+      { "answer": "reflexivita (reflexivity)", "correct": false },
+      { "answer": "asociativita (associativity) ", "correct": true },
+      { "answer": "trojůhelníková nerovnost (triangle inequality)", "correct": false }
+    ]
+  },
+  {
+    "question": "M-strom je:",
+    "answers": [
+      {
+        "answer": "inspirován PM-stromem, využívá hiearchické hnízdění metrických regionů a není vyvážený",
+        "correct": false
+      },
+      {
+        "answer": "inspirován R-stromem, využívá hiearchické hnízdění metrických regionů a je vyvážený ",
+        "correct": true
+      },
+      {
+        "answer": "inspirován R-stromem, využívá hiearchické hnízdění metrických regionů a není vyvážený",
+        "correct": false
+      },
+      {
+        "answer": "inspirován PM-stromem, využívá hiearchické hnízdění metrických regionů a je vyvážený",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Mezi metrické přístupové metody (metric access methods) nepatří:",
+    "answers": [
+      { "answer": "M-strom", "correct": false },
+      { "answer": "D-index", "correct": false },
+      { "answer": "LAESA", "correct": false },
+      { "answer": "R-strom ", "correct": true }
+    ]
+  },
+  {
+    "question": "Nevýhoda měření výkonu metrického indexu reálným časem je:",
+    "answers": [
+      { "answer": "závislost na platformě, optimalizaci, operačním systému a hardware ", "correct": true },
+      { "answer": "nemá nevýhody", "correct": false },
+      { "answer": "nelze použít va paralelním prostředí", "correct": false },
+      { "answer": "nemožnost objetivně porovnat s jiným indexem", "correct": false }
+    ]
+  },
+  {
+    "question": "PAC jsou:",
+    "answers": [
+      { "answer": "pravděpodobně podobnostní dotazy", "correct": false },
+      { "answer": "permanentně aproximativní dotazy", "correct": false },
+      { "answer": "pravděpodobně přibližně korektní dotazy ", "correct": true },
+      { "answer": "nic takového neexistuje", "correct": false }
+    ]
+  },
+  {
+    "question": "Metoda FastMap:",
+    "answers": [
+      { "answer": "nepoužívá kosinovu a Pythagorovu větu", "correct": false },
+      { "answer": "je rychlá metoda používající náhodné projekce do vektorového prostoru", "correct": false },
+      { "answer": "je metoda mapování obecných metrických dat do euklidovského prostoru ", "correct": true },
+      { "answer": "je omezena pouze na mapování dat v euklidovském prostoru", "correct": false }
+    ]
+  },
+  {
+    "question": "Aproximativní vyhledávání je výhodné, když:",
+    "answers": [
+      { "answer": "neznáme přesnou sémantiku vzdálenostní funkce", "correct": false },
+      {
+        "answer": "chceme výrazně rychlejší vyhledávání i za cenu velkého snížení přesnosti vyhledávání",
+        "correct": false
+      },
+      { "answer": "známe přesnou sémantiku vzdálenostní funkce", "correct": false },
+      {
+        "answer": "chceme výrazně rychlejší vyhledávání za cenu malého snížení přesnosti vyhledávání ",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "Korelovaná data u skyline operátoru způsobí:",
+    "answers": [
+      { "answer": "chybu", "correct": false },
+      { "answer": "malý skyline ", "correct": true },
+      { "answer": "velký skyline", "correct": false },
+      { "answer": "už nevim", "correct": false }
+    ]
+  },
+  {
+    "question": "Vektorový model typicky využívá:",
+    "answers": [
+      { "answer": "euklidovskou vzdálenost", "correct": false },
+      { "answer": "kosinovou podobnost ", "correct": true },
+      { "answer": "váženou euklidovskou vzdálenost", "correct": false },
+      { "answer": "váženou kosinovou vzdálenost", "correct": false }
+    ]
+  },
+  {
+    "question": "Uživatelská zpětná vazba (user relevance feedback) ve vyhledávačích znamená:",
+    "answers": [
+      { "answer": "odeslání webového formuláře s popisem chyby", "correct": false },
+      { "answer": "manuální vybírání relevantních objektů z databáze", "correct": false },
+      { "answer": "označení korektnosti odpovědi uživatelem ", "correct": true },
+      { "answer": "vyhledávání několika dotazy najednou", "correct": false }
+    ]
+  },
+  {
+    "question": "Termínem False dismissal (false drop) označujeme:",
+    "answers": [
+      { "answer": "objekt, který se měl dostat do výsledku, ale není vůbec v databázi", "correct": false },
+      { "answer": "duplicita objektu ve výsledku dotazu", "correct": false },
+      { "answer": "objekt ve výsledku dotazu, který se tam neměl dostat", "correct": false },
+      { "answer": "objekt v databázi, který se měl dostat do výsledku dotazu, ale nedostal ", "correct": true }
+    ]
+  },
+  {
+    "question": "Invertovaný index:",
+    "answers": [
+      { "answer": "má řidší matici než index neinvertovaný", "correct": false },
+      { "answer": "umožňuje určit zda dokument má být ve výsledku bez nutnosti projít celou matici ", "correct": true },
+      { "answer": "neobsahuje v matici všechny dokumenty", "correct": false },
+      { "answer": "je uplatnitelný pouze ve vektorovém modelu vyhledávání", "correct": false }
+    ]
+  },
+  {
+    "question": "Výpočet Lp (Minkovského) vzdálenosti má časovou složitost:",
+    "answers": [
+      { "answer": "O(pn^2)", "correct": false },
+      { "answer": "O(n^2)", "correct": false },
+      { "answer": "O(n) ", "correct": true },
+      { "answer": "O(nlogn)", "correct": false }
+    ]
+  },
+  {
+    "question": "Mezi typické vhodné vlastnosti pro popis obrázku nepatří:",
+    "answers": [
+      { "answer": "invariance vůči zvětšení/zmenšení (scale)", "correct": false },
+      { "answer": "invariance vůči posunu (translation)", "correct": false },
+      { "answer": "invariance vůči kvantizaci (quantization) ", "correct": true },
+      { "answer": "invariance vůči rotaci (rotation)", "correct": false }
+    ]
+  },
+  {
+    "question": "Extrakce vlastností (feature extraction) je:",
+    "answers": [
+      {
+        "answer": "model a procedura tvorby zjednodušené reprezentace multimediálního objektu, použíté pro vyhledávání ",
+        "correct": true
+      },
+      { "answer": "výběr několika vlastností multimédia za účelem jeho komprese", "correct": false },
+      {
+        "answer": "výběr pouze takových vlastností mutimédia, které uživatel označí zpětnou vazbou (relevance feedback)",
+        "correct": false
+      },
+      { "answer": "většinou diskrétní Fourierova transformace (DFT)", "correct": false }
+    ]
+  },
+  {
+    "question": "PM-tree obohacuje M-tree o:",
+    "answers": [
+      { "answer": "globální pivoty, čímž zvětšuje regiony a tedy zlepšuje filtrování", "correct": false },
+      { "answer": "globální pivoty, čímž zmenšuje regiony a tedy zlepšuje filtrování ", "correct": true },
+      { "answer": "lokální pivoty, čímž zmenšuje regiony a tedy zlepšuje filtrování", "correct": false },
+      { "answer": "lokální pivoty, čímž zvětšuje regiony a tedy zlepšuje filtrování", "correct": false }
+    ]
+  },
+  {
+    "question": "Vnitřní dimenze (intrinsic dimensionality) je:",
+    "answers": [
+      { "answer": "typ fraktální dimenze na metrickém prostoru", "correct": false },
+      { "answer": "průměrný poloměr shluků identifikovaných v databázi", "correct": false },
+      { "answer": "odhad dimenze vektorového Lp prostoru, do kterého bychom namapovali databázi", "correct": false },
+      {
+        "answer": "statistický ukazatel odvozený z distribuce vzdáleností v databázi, sloužící jako indikátor indexovatelnosti databáze pod danou metrikou ",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "Základní jednotkou nákladů v rámci metrického indexování je:",
+    "answers": [
+      { "answer": "přůstup na disk", "correct": false },
+      { "answer": "realtime", "correct": false },
+      { "answer": "počet výpočtů vzdálenostní metriky ", "correct": true },
+      { "answer": "přístup do paměti", "correct": false }
+    ]
+  },
+  {
+    "question": "Mezi nevýhody Boolského modelu dotazování nepatří:",
+    "answers": [
+      { "answer": "omezená vyjadřovací schopnost", "correct": false },
+      { "answer": "setřídění výstupu", "correct": false },
+      { "answer": "efektivita vyhodnocení řídkých dotazů ", "correct": true },
+      { "answer": "regulace počtu vrázených dokumentů", "correct": false }
+    ]
+  },
+  {
+    "question": "Server pro ukládání a sdílení multimédií (hosting server):",
+    "answers": [
+      { "answer": "podporuje vyhledávání multimédií na základě obsahu nebo textového popisu ", "correct": true },
+      { "answer": "vyhledává pouze webové stránky, na kterých jsou videa a obrázky", "correct": false },
+      { "answer": "vždy obsahuje jak uložení (hostování) multimédií, tak vyhledávací funkce", "correct": false },
+      { "answer": "podporuje vyhledávání multimédií pouze na základě textového popisu", "correct": false }
+    ]
+  },
+  {
+    "question": "Invertovaný index je u boolevského modelu dotazování obzvláště efektivní pro:",
+    "answers": [
+      { "answer": "sady obsahující málo dokumentů", "correct": false },
+      { "answer": "dotazy obsahující mnoho termů", "correct": false },
+      { "answer": "dotazy s málo termy ", "correct": true },
+      { "answer": "dotazy neobsahující negaci", "correct": false }
+    ]
+  },
+  {
+    "question": "Dotaz na k nejbližších sousedů (k nearest neighbors query, kNN):",
+    "answers": [
+      { "answer": "vybere předem neurčený počet objektů do vzdálenosti k", "correct": false },
+      { "answer": "vybere k nejpodobnějších objektů k objektu dotazu ", "correct": true },
+      { "answer": "se vyhodnocuje top-k operátorem", "correct": false },
+      { "answer": "je omezen na euklidovský vektorový prostor", "correct": false }
+    ]
+  },
+  {
+    "question": "Content-based retrieval označuje:",
+    "answers": [
+      { "answer": "vyhledávání struktury v obsahu multimédia", "correct": false },
+      { "answer": "získávání dat filtrací webu", "correct": false },
+      { "answer": "vyhledávání přímo podle obsahu multimédia ", "correct": true },
+      { "answer": "vyhledávání podle textového popisu multimédia", "correct": false }
+    ]
+  },
+  {
+    "question": "Explorace databáze znamená:",
+    "answers": [
+      { "answer": "Procházení obsahu databáze bez specifikace dotazu ", "correct": true },
+      { "answer": "Procházení databáze v prohlížeči Internet Explorer", "correct": false },
+      { "answer": "Něco s indexováním", "correct": false }
+    ]
+  },
+  { "question": "Dangling nodes je:", "answers": [] },
+  {
+    "question": "Stránka bez inlinků",
+    "answers": [
+      { "answer": "Stránka s 1 inlinkem", "correct": false },
+      { "answer": "Stránka bez outlinků ", "correct": true },
+      { "answer": "Stránka s 1 outlinkem", "correct": false }
+    ]
+  },
+  {
+    "question": "LSI u vektorového modelu částečně řeší problém s:",
+    "answers": [
+      { "answer": "homonymy", "correct": false },
+      { "answer": "antonymy", "correct": false },
+      { "answer": "homonymy a synonymy ", "correct": true },
+      { "answer": "synonymy", "correct": false }
+    ]
+  },
+  {
+    "question": "V rozšířeném Booleovském modelu se využívá:",
+    "answers": [
+      { "answer": "kosinová vzdálenost", "correct": false },
+      { "answer": "euklidovská vzdálenost", "correct": false },
+      { "answer": "vážená euklidovská vzdálenost ", "correct": true },
+      { "answer": "vážená kosinová vzdálenost", "correct": false }
+    ]
+  },
+  {
+    "question": "O co doplňuje Rozšířený Booleovský model základní Booleovský model?",
+    "answers": [{ "answer": "O vážení a možnost seřazení dokumentů na výstupu ", "correct": true }]
+  },
+  {
+    "question": "RDF je založeno na:",
+    "answers": [
+      { "answer": "dvojicích", "correct": false },
+      { "answer": "trojicích ", "correct": true },
+      { "answer": "čtveřicích", "correct": false },
+      { "answer": "pěticích", "correct": false }
+    ]
+  },
+  {
+    "question": "Co je potřeba udělat s dokumenty ve formátu PDF a MS Office z hlediska SEO?",
+    "answers": [
+      { "answer": "Nechat je v původních formátech (nedělat nic)", "correct": false },
+      { "answer": "PDF exportovat do bitmapy a MS Office do formátu 97-2003", "correct": false },
+      { "answer": "Optimalizovat je jako webové stránky ", "correct": true },
+      { "answer": "Nic", "correct": false }
+    ]
+  },
+  {
+    "question": "Filtering je:",
+    "answers": [
+      { "answer": "Navigace ve struktuře databáze (webu)", "correct": false },
+      { "answer": "Explicitní formulace jednorázového záměru vyhledávání", "correct": false },
+      { "answer": "SQL příkaz obsahující predikát LIKE", "correct": false },
+      { "answer": "Formulace déle trvajícího záměru vyhledávání ", "correct": true }
+    ]
+  },
+  {
+    "question": "Google matice je (byly tam nějaké 3 termíny, které si nepamatuji):",
+    "answers": [
+      { "answer": "Stochastická, irreducibilní, aperiodická ", "correct": true },
+      { "answer": "Stochastická", "correct": false },
+      { "answer": "Irreducibilní, aperiodická", "correct": false },
+      { "answer": "Stochastická, irreducibilní", "correct": false }
+    ]
+  },
+  {
+    "question": "Algoritmus výpočtu PageRank je:",
+    "answers": [
+      { "answer": "Iterativní ", "correct": true },
+      { "answer": "Aktualizační", "correct": false }
+    ]
+  },
+  { "answers": [] },
+  {
+    "question": "Google Analytics je:",
+    "answers": [
+      { "answer": "Nástroj pro sledování přístupů na webové stránky ", "correct": true },
+      { "answer": "Něco s vyhledáváním", "correct": false }
+    ]
+  },
+  {
+    "question": "False alarm je:",
+    "answers": [
+      { "answer": "Dokument, který se měl dostat do výsledku dotazu, ale nedostal se", "correct": false },
+      { "answer": "Dokument, který se objevil ve výsledku dotazu, ale neměl se objevit ", "correct": true }
+    ]
+  },
+  {
+    "question": "Na co sa vyuziva PageRank:",
+    "answers": [
+      {
+        "answer": "Na analýzu popularity stránky, pomocí množství odkazů vedoucí na ni a vedoucí z ní ",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "Z čeho vychází Google matice?",
+    "answers": [{ "answer": "z matice sousednosti stránek ", "correct": true }]
+  },
+  {
+    "question": "Základní konstrukce jazyka SPARQL:",
+    "answers": [
+      { "answer": "SELECT, CONSTRUCT ", "correct": true },
+      { "answer": "SELECT, JOIN, UNSUBSCRIBE", "correct": false },
+      { "answer": "MAKE, SUBSCRIBE", "correct": false }
+    ]
+  },
+  {
+    "question": "Základní prvky vyhledávání:",
+    "answers": [
+      { "answer": "crawling, indexing, searching ", "correct": true },
+      { "answer": "crawling, checking", "correct": false },
+      { "answer": "searching", "correct": false },
+      { "answer": "indexing, crawling", "correct": false }
+    ]
+  },
+  {
+    "question": "Časová složitost metrix-free je:",
+    "answers": [
+      { "answer": "O(n) ", "correct": true },
+      { "answer": "O(n^2)", "correct": false },
+      { "answer": "O(2^n)", "correct": false },
+      { "answer": "O(n^3)", "correct": false }
+    ]
+  },
+  {
+    "question": "Co je to GNAT?",
+    "answers": [{ "answer": "n-ární strom využívající dělení prostoru (zobecněnými) nadrovinami ", "correct": true }]
+  },
+  {
+    "question": "Co vyjadřuje P-R křivka?",
+    "answers": [
+      {
+        "answer": "závislost přesnosti (precision) a úplnosti (recall) u Booleovského modelu (11 standardních úrovních recallu) ",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "Lp (Minkovského) vzdálenosti:",
+    "answers": [
+      { "answer": "je třída vektorových vzdáleností, které uvažují nezávislé dimenze. ", "correct": true },
+      { "answer": "jsou obecně použitelné metriky.", "correct": false },
+      { "answer": "je třída vektorých vzdáleností, které uvažují vzájemně korelované dimenze.", "correct": false },
+      { "answer": "je třída řetězcových vzdáleností, sloužících ke globálnímu zarovnání sekvencí", "correct": false }
+    ]
+  },
+  {
+    "question": "Metrický model podobnostního vyhledávání je:",
+    "answers": [
+      {
+        "answer": "obecný model indexování čehokoliv na internetu, co lze vyhledat podle podobnosti",
+        "correct": false
+      },
+      {
+        "answer": "založen na univerzu (množině) deskriptorů a metrické vzdálenosti sloužící jako podobnost deskriptorů ",
+        "correct": true
+      },
+      { "answer": "množina metrických vzdáleností pro podobnostní vyhledávání multimédií", "correct": false },
+      { "answer": "speciální případ vektorového podobnostního modelu", "correct": false }
+    ]
+  },
+  {
+    "question": "Zájmový bod (interest point) je:",
+    "answers": [
+      {
+        "answer": "bod/region v obraze, který je dobře definovaný, nese informaci o svém okolí a je stabilní ",
+        "correct": true
+      },
+      { "answer": "bodové hodnocení obrázku uživatelem", "correct": false },
+      { "answer": "každý pixel na hraně segmentu (v segmentovaném obraze)", "correct": false },
+      { "answer": "bod/region v obraze, který je zajímavý pro uživatele", "correct": false }
+    ]
+  },
+  {
+    "question": "MPEG7 audio definuje:",
+    "answers": [
+      { "answer": "pouze nízkoúrovňové (low-level) diskriptory", "correct": false },
+      { "answer": "nízko, středně (mid-level) a vysokoúrovňové deskriptory", "correct": false },
+      { "answer": "pouze vysokoúrovňové (high-level) deskriptory", "correct": false },
+      { "answer": "nízko i vysoko úrovňové deskriptory ", "correct": true }
+    ]
+  },
+  {
+    "question": "Keyframe je:",
+    "answers": [
+      { "answer": "základní prvek pro konstrukci video deskriptoru ", "correct": true },
+      { "answer": "nejreprezentativnější obrázek z video klipu, sumarizující jeho obsah", "correct": false },
+      { "answer": "reprezentativní obrázek z kolekce obrázků", "correct": false },
+      { "answer": "obraz reprezentující střed shluku obrázků", "correct": false }
+    ]
+  },
+  {
+    "question": "Výpočet kvadratické formy (quadratic form distance, QDF) má časovou složitost:",
+    "answers": [
+      { "answer": "O(n^2) ", "correct": true },
+      { "answer": "O(n*logn)", "correct": false },
+      { "answer": "O(n)", "correct": false },
+      { "answer": "O(n^3)", "correct": false }
+    ]
+  },
+  {
+    "question": "Hausdorff distance je:",
+    "answers": [
+      {
+        "answer": "obecná množinová vzdálenost, kde pro podobnost elementů množin se využívá tzv. ground distance ",
+        "correct": true
+      },
+      { "answer": "vzdálenost měřící (normovanou) velikost průniku dvou množin", "correct": false },
+      {
+        "answer": "obecná vektorová vzdálenost, kde pro podobnost soužadnic vektorů se používá jednoduchá norma |.|2",
+        "correct": false
+      },
+      {
+        "answer": "vzdálenost bodů ve vektorovém prostoru podle tzv. Hausdorffovy neriemannovské geometrie",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Výpočet Hausdorff distance má časovou složitost:",
+    "answers": [
+      { "answer": "O(n*logn)", "correct": false },
+      { "answer": "O(n^2) ", "correct": true },
+      { "answer": "O(n^2)*O(d), kde O(d) je složitost ground distance", "correct": false },
+      { "answer": "O(n)", "correct": false }
+    ]
+  }
+]
