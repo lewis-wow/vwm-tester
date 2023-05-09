@@ -1081,5 +1081,59 @@
       { "answer": "O(n^2)*O(d), kde O(d) je složitost ground distance", "correct": false },
       { "answer": "O(n)", "correct": false }
     ]
+  },
+  {
+    "question": "D-index ukládá objekty do",
+    "answers": [
+      { "correct": true, "answer": "  více datových kapes a jedné množiny vyloučených " },
+      { "correct": false, "answer": " více datových kapes a více množin vyloučených" },
+      { "correct": false, "answer": " jedné datové kapsy a jedné množiny vyloučených" },
+      { "correct": false, "answer": " jedné datové kapsy a více množin vyloučených" }
+    ]
+  },
+  {
+    "question": "Dolní hranice (lower bound) dané vzdálenostní funkce je efektivní pro filtrování když:",
+    "answers": [
+      { "correct": false, "answer": " je co největší (volná)" },
+      { "correct": true, "answer": "  je co největší (těsná) " },
+      { "correct": false, "answer": " známe distribuci dat v prostoru" },
+      { "correct": false, "answer": " neznáme distribuci dat v prostoru" }
+    ]
+  },
+  {
+    "question": "Threshold algoritmus je algoritmus pro:",
+    "answers": [
+      { "correct": false, "answer": " Faginuv operátor" },
+      { "correct": false, "answer": " skyline operátor" },
+      { "correct": false, "answer": " similarity join" },
+      { "correct": true, "answer": "  top-k operátor " }
+    ]
+  },
+  {
+    "question": "Ontologie ( semanticky web)",
+    "answers": [
+      { "correct": true, "answer": "  formální specifikace znalostí v konkrétní doméně a vztahů mezi znalostmi " }
+    ]
+  },
+  {
+    "question": "Distance distribution histogram nám umožňuje",
+    "answers": [
+      { "correct": true, "answer": "  stanovit, zda-li máme data vhodná pro indexování pomocí (metrických) indexů" },
+      { "correct": false, "answer": " zvýšit výkon metrických indexů (kromě M-stromů)" },
+      { "correct": false, "answer": " stanovit vnější dimenze" },
+      {
+        "correct": false,
+        "answer": " stanovit, které objekty je nutné vymazat z indexu při odstranění objektu z databáze"
+      }
+    ]
+  },
+  {
+    "question": "kNN algoritmus v M-stromu je založen na heuristice používající",
+    "answers": [
+      { "correct": true, "answer": "  prioritní frontu a pole kandidátů na nejbližší sousedy " },
+      { "correct": false, "answer": " serii nezávislých rozsahovaných dotazů range query" },
+      { "correct": false, "answer": " max-heap a prioritní frontu" },
+      { "correct": false, "answer": " pole kandidátů na nejbližsí sousedy" }
+    ]
   }
 ]
