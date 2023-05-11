@@ -1135,5 +1135,23 @@
       { "correct": false, "answer": " max-heap a prioritní frontu" },
       { "correct": false, "answer": " pole kandidátů na nejbližsí sousedy" }
     ]
+  },
+  {
+    "question": "Threshold algoritmus umožňuje pracovat:",
+    "answers": [
+      { "answer": "nad dvojicemi libovolných objektů", "correct": false },
+      { "answer": "nad n-ticemi libovolných objektů", "correct": false },
+      { "answer": "nad dvojicemi objektů, nad kterými je definován", "correct": true },
+      { "answer": "nad n-ticemi objektů, nad kterými je definován", "correct": false }
+    ]
+  },
+  {
+    "question": "Koncepty LSI jsou:",
+    "answers": [
+      { "answer": "lineární kombinace termů", "correct": true },
+      { "answer": "nelineární kombinace termů", "correct": false },
+      { "answer": "kvadratické kombinace termů", "correct": false },
+      { "answer": "něco dalšího", "correct": false }
+    ]
   }
 ]
