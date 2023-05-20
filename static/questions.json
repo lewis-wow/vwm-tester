@@ -1153,5 +1153,27 @@
       { "answer": "kvadratické kombinace termů", "correct": false },
       { "answer": "něco dalšího", "correct": false }
     ]
+  },
+  {
+    "question": "Co z následujícího se nevyužívá u tf-idf?",
+    "answers": [
+      { "answer": "frekvence termu v konkrétním dokumentu", "correct": false },
+      { "answer": "frekvence termu napříč kolekcí dokumentů", "correct": false },
+      { "answer": "logaritmická funkce", "correct": false },
+      { "answer": "exponenciální funkce", "correct": true }
+    ]
+  },
+  {
+    "question": "Co vyjadřuje P-R křivka?",
+    "answers": [
+      {
+        "answer": "závislost přesnosti (precision) na úplnosti (recall) u Booleovského modelu (11 standardních úrovních recallu) ",
+        "correct": true
+      },
+      {
+        "answer": "závislost úplnosti (recall) na přesnosti (precision) u Booleovského modelu (11 standardních úrovních přenosti)",
+        "correct": false
+      }
+    ]
   }
 ]
