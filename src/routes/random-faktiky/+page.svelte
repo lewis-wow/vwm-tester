@@ -38,5 +38,51 @@
     treshold algorithm = iterativne strida poradi k itemu dokud jejich skore rozdilnosti mezi sebou je co nejmensi, pote top-k
     vnitrni dimenze = urcuje jak moc mame skvela data pro indexaci
     inverted index u booleovskeho modelu = term-by-document matice je velmi ridka, toho se vyuzije a matice se reprezentuje pouze jako pole listu, vyuziva sorteneni dokumentu
-    </pre>
+    
+    tf-idf = pro odfiltrovani nedulezitych termu
+      pocet termu v dokumentu/pocet vsech termů v dokumentu * Log(pocet dokumentu/pocet dokumentu ktere obsahují term)
+
+    extrapolacni predpoklad = kvalita otestovana na zname kolekci bude stejne ohodnocena i na nezname kolekci
+
+    F-score = harmonicky prumer presnosti a uplnosti
+    R-precistion = presnost kdyz bereme v uvahu pouze n vysledku
+    bull-eye percentage = uplnost kdyz bereme v uvahu pouze n/2 vysledku
+
+    Vektorovy model SVD = vyuzivame SVD (dekompozice na singularni cisla nebo co???? memel jsem LA20000), 
+      vyrazne snizuje pocet dymenzi vektoru i dokumentu,
+      castecne odfiltrovava sum a nedulezite termy
+
+    Vektorovy model LSI = snizuje pocet dymenzi vektoru i dokumentu,
+      castecne odfiltrovava sum a nedulezite termy
+      resi castecne problem s homonymy a synonymy diky pozorovani kontextu termu
+
+    vyznacny bod obrazu = takovy bod ktery je matematicky zajimavy, ma jasnou pozici v obrazku, je staticky, je stabilni vuci zmenam
+
+    2d tvary
+      closed polygons = najdeme centroid a zacneme merit vzdalenost od kraju
+      open polygons = na casove osy uhly polygonu
+
+    video
+      frame = nejmensi usek videa (1 obraz)
+      shot = posloupnost framu tvorici snimek
+      scena = vice snimku spolu nejak souvisejici
+      video
+
+    keyframe = vhodna poslopnost framu pro vytvoreni deskriptoru
+
+    scoring = mereni zmen pixelů mezi jednotlivymi framy
+
+    motion deskritory = VIDEOQ
+
+    ball-overlap factor = (koule tvoreny pomoci sousedu = kazda dvojice objektu tvori kouli), 
+      pocet pruniku techto kouli/poctu vsech dvojic
+      slouzi k zjisteni indexovani podobne jako vnitrni dimenze
+
+    TV-modifikator = zajistuje lepsi indexovatelnost, vyssi T-error, strikt konvexni
+    TG-modifikator = horsi indexovatelnost, nizsi T-error, strikt konkavni
+
+    C dimenze = počet dimenzi ktere se vyuzivaji v danem prostoru (napriklad nezavisle promenne)
+
+    SPARQL = ma i DESCRIBE keyword (K.O.)
+  </pre>
 </div>
