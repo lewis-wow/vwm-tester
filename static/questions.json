@@ -1184,5 +1184,14 @@
       { "answer": "hustou concept-by-document matici a řídký dotazovací vektor", "correct": false },
       { "answer": "hustou concept-by-document matici a hustý dotazovací vektor", "correct": true }
     ]
+  },
+  {
+    "question": "Přesnost vyhledávání označuje:",
+    "answers": [
+      { "answer": "pravděpodobnost, že objekt ve výsledku dotazu je relevantní", "correct": true },
+      { "answer": "pravděpodobnost, že objekt relevantní k dotazu je v jeho výsledku ", "correct": false },
+      { "answer": "počet iterací při vyhledávání pomocí uživatelské zpětné vazby", "correct": false },
+      { "answer": "stupeň 1 na stupnici 1-5 uživatelské spokojenosti s výsledkem dotazu", "correct": false }
+    ]
   }
 ]
