@@ -49,53 +49,45 @@ kRNN = vybere takove prvky, ktere maji jako k-teho nejblizsiho souseda prave hle
 
 extrapolacni predpoklad = vyhledavani ma stejnou rychlost na jakekoliv datove sade, jako na te natrenovne
 
-multi-modal-search = vyhledavani pomoci vice vyhledavacich technik (prikladem = podle obrazku + keywords + fulltext popis)
-early-fusion = data jsou nejdrive spojena a az pak dotazana dotazem
-late-fusion = data jsou nejdrive dotazana a data jsou pote spojena
+multi-modal-search = 
+early-fusion = 
+late-fusion = 
 
-mapovani = nejcasteji do euklidova prostoru, pro rychlejsi dotazy (mensi presnost), aproximace
-fastMap, LAESA, M-tree + kNN
-guarantee of a bound = vsechny vysledky jsou relevantni k dotazu
-probabilistic = vsechny vysledky jsou relevantni s nejakou pravdepodobnosti
-no guarantee = napr sampling
-fastMap = prevadi nemetricky prostor na metricky euklidovsky prostor (aproximace)
+mapovani = 
+guarantee of a bound =
+probabilistic =
+no guarantee =
+fastMap = 
 
-approximately correct search = takove dotazy, ktere dovoluji aproximovat pomoci kNN do nejake threshold hodnoty
-good fraction approximation = dotazy, ktere dovoluji aproximovat pomoci kNN, do dalky, jako je vzdalenost specifikovaneho objektu
-aproximované vyhledávání pomocí pivot tabulek = umožňuje vyhledávat v určitém prahovém rozmezí (thresholdu) pomocí pivotů.
-permutacni indexy = preusporadavaji data tak, aby u sebe byly ty nejpodobnější prvky
+approximately correct search = 
+good fraction approximation = 
+aproximované vyhledávání pomocí pivot tabulek = 
+permutacni indexy = 
 
-collaborative filtering = podle podobnosti uzivatelu (cold start)
-content-based recommendation = podle podobnosti veci (hot start, nepresny)
-knowledge-based recommendation = podle potreb uzivatele (napr kupuje psa - nabizim krmeni) (slozite)
-demographic recommendation = podle polohy uzivatele (nema smysl v africe nabizet zimni bundy)
-hybrid = vsechno
+collaborative filtering = 
+content-based recommendation = 
+knowledge-based recommendation = 
+demographic recommendation = 
+hybrid = 
 
-Vyuziva se predevsim socialnich siti, kde uzivatele dobrovolne zadavaji osobni informace, ktere se daji jednoduse trackovat
+PCA = 
 
-PCA = slouzi k redukci dimenze
+FOAF = 
 
-FOAF = ontologie semantickeho webu pro popis vztahu a charakteristik lidi hlavne na socialnich sitich
+linked-data = 
 
-linked-data = propojeni strukturovanych dat globalne na principu jednotnych identifikatoru, 
-  jednodussi vyhledavani informaci a jejich spojovani
+one-step ranking = 
 
-one-step ranking = řazení výsledků vyhledávání, který se snaží poskytnout uživatelům co nejrelevantnější a kvalitnější výsledky přímo v prvním kroku
+fagin = 
+threshold = 
 
-fagin = pridava prvky do bufferu, ten je pak serazen a vraceno k vysledku
-threshold = pridava prvky a v kazde iteraci seradi buffer, pokud je prekrocena urcita hranice, skonci
+backlinks = 
 
-backlinks = odkazy zpet na moji stranku
-
-google webmaster tools = nastroj pro mereni mnoho metrik SEO
+google webmaster tools = 
 
 PageRank original = problemy = [
-  iteracni proces nemusel konvergovat, 
-  rank sinks (nektere weby ztracely skore, jine akumulovaly s dalsimi iteracemi ),
-  problem cyklu,
+  
 ]
 
 
-alpha = nalezi (0, 1), 0.85 google, konverguje okolo 50-100 iteraci
-
-vyuziva se matrix-free model, kvuli rychlosti
+alpha =

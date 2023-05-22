@@ -1175,5 +1175,14 @@
         "correct": false
       }
     ]
+  },
+  {
+    "question": "LSI model má: ",
+    "answers": [
+      { "answer": "řídkou concept-by-document matici a řídký dotazovací vektor", "correct": false },
+      { "answer": "řídkou concept-by-document matici a hustý dotazovací vektor", "correct": false },
+      { "answer": "hustou concept-by-document matici a řídký dotazovací vektor", "correct": false },
+      { "answer": "hustou concept-by-document matici a hustý dotazovací vektor", "correct": true }
+    ]
   }
 ]
