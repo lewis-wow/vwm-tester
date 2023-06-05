@@ -1141,8 +1141,8 @@
     "answers": [
       { "answer": "nad dvojicemi libovolných objektů", "correct": false },
       { "answer": "nad n-ticemi libovolných objektů", "correct": false },
-      { "answer": "nad dvojicemi objektů, nad kterými je definován", "correct": true },
-      { "answer": "nad n-ticemi objektů, nad kterými je definován", "correct": false }
+      { "answer": "nad dvojicemi objektů, nad kterými je definován", "correct": false },
+      { "answer": "nad n-ticemi objektů, nad kterými je definován", "correct": true }
     ]
   },
   {
