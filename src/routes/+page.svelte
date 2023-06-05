@@ -2,6 +2,7 @@
   import Button from '../components/Button.svelte';
   import Card from '../components/Card.svelte';
   import Container from '../components/Container.svelte';
+  import ThemeSwitcher from '../components/ThemeSwitcher.svelte';
   import type { Question } from '../types';
   import { shuffle } from '../utils/shuffle';
 
@@ -39,4 +40,5 @@
       </div>
     </div>
   </Card>
+  <ThemeSwitcher/>
 </Container>
